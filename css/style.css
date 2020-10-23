@@ -149,11 +149,11 @@ input:checked + .slider:before{
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
-    transition:  all.1s;
-    -webkit-transition:  all.1s;
-    -moz-transition:  all.1s;
-    -ms-transition:  all.1s;
-    -o-transition:  all.1s;
+    transition:  all 1s;
+    -webkit-transition:  all 1s;
+    -moz-transition:  all 1s;
+    -ms-transition:  all 1s;
+    -o-transition:  all 1s;
 }
 
 .basic button:hover{
@@ -265,11 +265,11 @@ input:checked + .slider:before{
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
-    transition:  all.1s;
-    -webkit-transition:  all.1s;
-    -moz-transition:  all.1s;
-    -ms-transition:  all.1s;
-    -o-transition:  all.1s;
+    transition:  all 1s;
+    -webkit-transition:  all 1s;
+    -moz-transition:  all 1s;
+    -ms-transition:  all 1s;
+    -o-transition:  all 1s;
 }
 
 .Master button:hover{
