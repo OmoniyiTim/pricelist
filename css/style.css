@@ -149,6 +149,18 @@ input:checked + .slider:before{
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
+    transition:  all.1s;
+    -webkit-transition:  all.1s;
+    -moz-transition:  all.1s;
+    -ms-transition:  all.1s;
+    -o-transition:  all.1s;
+}
+
+.basic button:hover{
+    border: 1px solid hsl(237, 63%, 64%);
+    color:hsl(237, 63%, 64%) ;
+    background: transparent;
+   
 }
 /* ===================THE BASIC PRICELIST Ends=================== */
 
@@ -197,6 +209,16 @@ input:checked + .slider:before{
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.Professional button:hover{
+    border: 1px solid #ffffff;
+    color:#ffffff ;
+    background: transparent;
 }
 
 /* ===================THE PROFESSIONAL Ends PRICELIST=================== */
@@ -243,6 +265,18 @@ input:checked + .slider:before{
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
+    transition:  all.1s;
+    -webkit-transition:  all.1s;
+    -moz-transition:  all.1s;
+    -ms-transition:  all.1s;
+    -o-transition:  all.1s;
+}
+
+.Master button:hover{
+    border: 1px solid hsl(237, 63%, 64%);
+    color:hsl(237, 63%, 64%) ;
+    background: transparent;
+   
 }
 /* ===================THE MASTER Ends PRICELIST=================== */
 .attribution { font-size: 11px; text-align: center; }
