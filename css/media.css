@@ -1,0 +1,106 @@
+@media only screen and(max-width:1200px){
+    .container {
+        height: 95vh;
+    }
+    .basic , .Master {
+        width: 30%;
+        height: 405px;
+    }
+    .Professional {
+        width: 30%;
+        height: 440px;
+    }
+
+
+}
+@media only screen and (max-width:768px){
+
+    .container{
+        height: 100%;
+    }
+    .header {
+        width: 43%;
+        
+    }
+
+   .price {
+      flex-direction: column;
+    }
+    .price .basic  {
+        width: 45%;
+        height: 380px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        margin-bottom: 30px;
+    }
+
+    .price  .Professional  {
+        width: 45%;
+        height: 380px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        margin-bottom: 30px;
+    }
+    .price  .Master  {
+        width: 45%;
+        height: 380px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:425px){
+    .container {
+        height: 100%;
+        background-size: 205px;
+    }
+    .header {
+        width: 80%;
+      
+    }
+    .price .basic  {
+        width: 85%;
+        height: 380px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        margin-bottom: 30px;
+    }
+    
+    .price  .Professional  {
+        width: 85%;
+        height: 380px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        margin-bottom: 30px;
+    }
+    .price  .Master  {
+        width: 85%;
+        height: 380px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        margin-bottom: 30px;
+    }
+    
+}

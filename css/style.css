@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 1rem Montserrat 800;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    background-image:  url(../images/bg-top.svg), url(../images/bg-bottom.svg);
+    background-position: top right,bottom left;
+    background-repeat: no-repeat;
+
+}
+
+.header{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+/* ===================THE SWITCH=================== */
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    outline: 0;
+}
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  hsl(237, 63%, 64%);
+    transition: 4s;
+    -webkit-transition: .4s;
+    -moz-transition: 4s;
+    -ms-transition: 4s;
+    -o-transition: 4s;
+}
+.slider:before{
+    position: absolute;
+    content: "";
+    width: 26px;
+    height: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: hsl(240, 78%, 98%);
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+input:checked + .slider{
+    background-color: hsl(237, 63%, 64%);
+}
+
+input:focus + .slider{
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before{
+    transform: translateX(26px);
+    -webkit-transform: translateX(26px);
+    -moz-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    -o-transform: translateX(26px);
+}
+.round{
+    border-radius: 34px;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    -ms-border-radius: 34px;
+    -o-border-radius: 34px;
+}
+.round:before{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* ===================THE SWITCH Ends=================== */
+
+/* ===================THE PRICE LIST=================== */
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* ===================THE BASIC PRICELIST=================== */
+.price .basic{
+    width: 25%;
+    height: 380px;
+    color: #000000;
+    background-color: hsl(240, 78%, 98%);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.basic h1{
+    font-size: 4rem;
+}
+.basic p{
+    font-size: 1.2rem;
+    
+}
+.basic p:nth-child(odd){
+    border-top:1px solid hsl(233, 13%, 49%) ;
+    border-bottom:1px solid hsl(233, 13%, 49%) ;
+    padding: 10px 0;
+}
+
+.basic button{
+    padding: 10px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    background: linear-gradient( to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%)) ;
+    border-radius: 7px;
+    outline: none;
+    text-transform: uppercase;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+/* ===================THE BASIC PRICELIST Ends=================== */
+
+
+/* ===================THE PROFESSIONAL PRICELIST=================== */
+
+.price .Professional{
+    width: 27%;
+    height: 420px;
+    color: #ffffff;
+    background: linear-gradient(to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%)) ;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+
+.Professional h1{
+    font-size: 4rem;
+}
+.Professional p{
+    font-size: 1.2rem;
+    
+}
+.Professional p:nth-child(odd){
+    border-top:1px solid hsl(233, 13%, 49%) ;
+    border-bottom:1px solid hsl(233, 13%, 49%) ;
+    padding: 10px 0;
+}
+
+
+.Professional button{
+    padding: 10px;
+    background-color: hsl(240, 78%, 98%);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    outline: none;
+    text-transform: uppercase;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+/* ===================THE PROFESSIONAL Ends PRICELIST=================== */
+
+
+/* ===================THE MASTER PRICELIST=================== */
+.price .Master{
+    width: 25%;
+    height: 380px;
+    color: #000000;
+    background-color: hsl(240, 78%, 98%);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+
+}
+.Master  h1{
+    font-size: 4rem;
+}
+.Master  p{
+    font-size: 1.2rem;
+    
+}
+.Master p:nth-child(odd){
+    border-top:1px solid hsl(233, 13%, 49%) ;
+    border-bottom:1px solid hsl(233, 13%, 49%) ;
+    padding: 10px 0;
+}
+
+.Master  button{
+    padding: 10px;
+    color: #ffffff;
+    border: 1px solid transparent;
+    background: linear-gradient( to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%)) ;
+    border-radius: 7px;
+    outline: none;
+    text-transform: uppercase;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+/* ===================THE MASTER Ends PRICELIST=================== */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
